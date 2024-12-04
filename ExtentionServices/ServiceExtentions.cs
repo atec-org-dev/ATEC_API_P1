@@ -28,7 +28,8 @@ namespace ATEC_API.ExtentionServices
                                                       "http://localhost:2711",
                                                       "https://localhost:7041",
                                                       "http://localhost:5099",
-                                                      "http://localhost:36777")
+                                                      "http://localhost:36777",
+                                                      "http://192.168.9.3:8080")
                                           .AllowAnyHeader()
                                           .AllowAnyMethod()
                                           .AllowCredentials();
